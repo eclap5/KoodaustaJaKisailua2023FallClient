@@ -4,6 +4,8 @@ from helpers import get_config
 from apiwrapper.websocket_wrapper import connect_websocket
 from logging_setup import setup_logging
 
+
+# This is main function
 if __name__ == '__main__':
     setup_logging()
     _logger = getLogger("wrapper.main")
